@@ -1,16 +1,17 @@
 function shortcut(s1, s2) {
   // your code here
+	if (s1 === "" || s2 === "") {
+    return "";
+  } else {
+    // Get the initial letters of the strings
+    let initial1 = s1[0];
+    let initial2 = s2[0];
+    
+    // Return the initials as a string
+    return initial1 + initial2;
+  }
 
-	if (str1.isEmpty() || str2.isEmpty()) {
-        return "";
-    } else {
-        // Get the initial letters of the strings
-        char initial1 = str1.charAt(0);
-        char initial2 = str2.charAt(0);
-        
-        // Return the initials as a string
-        return String.valueOf(initial1) + String.valueOf(initial2);
-    }
+	
 	
 }
 
